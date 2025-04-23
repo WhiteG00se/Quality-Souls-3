@@ -1,4 +1,4 @@
-# [Changelog/Wiki](https://docs.google.com/spreadsheets/d/1AsFlqzsFYiBCyEobpUrh3SBEQkSGP2jWntixRSuaTUE/edit?gid=452958051#gid=452958051)
+# [Changelog/Wiki](https://docs.google.com/spreadsheets/d/1cLGpEeVsGHx00jae8_SdM3i4xDDLz1BxHn5Na09YOF0/edit?usp=sharing)
 
 # 3rd Party Mods
 
