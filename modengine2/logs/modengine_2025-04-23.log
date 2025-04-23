@@ -1,0 +1,174 @@
+[2025-04-23 22:29:44.802] [modengine] [info] Attempting to load global config at D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\modengine2\config.toml
+[2025-04-23 22:29:44.802] [modengine] [info] Attempting to load mod settings config at D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\config_darksouls3.toml
+[2025-04-23 22:29:44.805] [modengine] [info] Local config loaded
+[2025-04-23 22:29:44.805] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2025-04-23 22:29:44.805] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2025-04-23 22:29:44.805] [modengine] [info] Main thread ID: 10416
+[2025-04-23 22:29:44.806] [modengine] [info] Enabling extension base
+[2025-04-23 22:29:44.806] [modengine] [info] Enabled extension base
+[2025-04-23 22:29:44.806] [modengine] [info] Enabling extension mod_loader
+[2025-04-23 22:29:44.806] [modengine] [info] Installing mod location mod
+[2025-04-23 22:29:44.806] [modengine] [info] Resolved mod path to D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\mod
+[2025-04-23 22:29:44.806] [modengine] [info] Enabled extension mod_loader
+[2025-04-23 22:29:44.806] [modengine] [info] Enabling extension scylla_hide
+[2025-04-23 22:29:44.806] [modengine] [info] Found valid ScyllaHide injector. Injecting into game.
+[2025-04-23 22:29:44.806] [modengine] [info] Starting ScyllaHide injector: D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\modengine2\tools\scyllahide\InjectorCLIx64.exe pid:21612 ./HookLibraryx64.dll nowait
+[2025-04-23 22:29:45.531] [modengine] [info] Launched Scyllahide process.
+[2025-04-23 22:29:45.876] [modengine] [info] ScyllaHide successfully injected
+[2025-04-23 22:29:45.876] [modengine] [info] Enabled extension scylla_hide
+[2025-04-23 22:29:45.905] [modengine] [info] Applied 3 hooks
+[2025-04-23 22:29:45.907] [modengine] [info] Starting worker thread
+[2025-04-23 22:32:27.024] [modengine] [info] Destroying
+[2025-04-23 22:32:27.024] [modengine] [info] Destroying
+[2025-04-23 22:32:27.024] [modengine] [info] Destroying
+[2025-04-23 22:32:27.024] [modengine] [info] Destroying
+[2025-04-23 22:32:27.024] [modengine] [info] Destroying
+[2025-04-23 22:32:27.024] [modengine] [info] Destroying
+[2025-04-23 22:32:27.024] [modengine] [info] Destroying
+[2025-04-23 22:32:27.024] [modengine] [info] Destroying
+[2025-04-23 22:32:27.024] [modengine] [info] Destroying
+[2025-04-23 22:32:27.025] [modengine] [info] Destroying
+[2025-04-23 22:35:24.410] [modengine] [info] Attempting to load global config at D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\modengine2\config.toml
+[2025-04-23 22:35:24.411] [modengine] [info] Attempting to load mod settings config at D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\config_darksouls3.toml
+[2025-04-23 22:35:24.415] [modengine] [error] Failed to load config (from `D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\config_darksouls3.toml`): Error while parsing value: could not determine value type
+[2025-04-23 22:35:24.415] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2025-04-23 22:35:24.415] [modengine] [info] Local settings loaded: false, Global settings loaded: false
+[2025-04-23 22:35:24.415] [modengine] [info] Main thread ID: 6408
+[2025-04-23 22:35:24.416] [modengine] [info] Enabling extension base
+[2025-04-23 22:35:24.416] [modengine] [info] Enabled extension base
+[2025-04-23 22:35:24.433] [modengine] [info] Applied 1 hooks
+[2025-04-23 22:35:24.434] [modengine] [info] Starting worker thread
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:35:58.076] [modengine] [info] Destroying
+[2025-04-23 22:37:50.726] [modengine] [info] Attempting to load global config at D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\modengine2\config.toml
+[2025-04-23 22:37:50.726] [modengine] [info] Attempting to load mod settings config at D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\config_darksouls3.toml
+[2025-04-23 22:37:50.730] [modengine] [info] Local config loaded
+[2025-04-23 22:37:50.730] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2025-04-23 22:37:50.730] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2025-04-23 22:37:50.730] [modengine] [info] Main thread ID: 10344
+[2025-04-23 22:37:50.792] [modengine] [info] Loaded external DLL D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\mod_3rd_party/d3d11.dll
+[2025-04-23 22:37:50.792] [modengine] [warning] External dll D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\mod_3rd_party/d3d11.dll at base address 0x7ffac5480000 is not a modengine extension
+[2025-04-23 22:37:50.792] [modengine] [info] Enabling extension base
+[2025-04-23 22:37:50.792] [modengine] [info] Enabled extension base
+[2025-04-23 22:37:50.792] [modengine] [info] Enabling extension mod_loader
+[2025-04-23 22:37:50.792] [modengine] [info] Installing mod location mod
+[2025-04-23 22:37:50.792] [modengine] [info] Resolved mod path to D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\mod
+[2025-04-23 22:37:50.792] [modengine] [info] Enabled extension mod_loader
+[2025-04-23 22:37:50.792] [modengine] [info] Enabling extension scylla_hide
+[2025-04-23 22:37:50.792] [modengine] [info] Found valid ScyllaHide injector. Injecting into game.
+[2025-04-23 22:37:50.792] [modengine] [info] Starting ScyllaHide injector: D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\modengine2\tools\scyllahide\InjectorCLIx64.exe pid:12704 ./HookLibraryx64.dll nowait
+[2025-04-23 22:37:50.795] [modengine] [info] Launched Scyllahide process.
+[2025-04-23 22:37:51.117] [modengine] [info] ScyllaHide successfully injected
+[2025-04-23 22:37:51.117] [modengine] [info] Enabled extension scylla_hide
+[2025-04-23 22:37:51.146] [modengine] [info] Applied 3 hooks
+[2025-04-23 22:37:51.148] [modengine] [info] Starting worker thread
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:41.988] [modengine] [info] Destroying
+[2025-04-23 22:38:55.970] [modengine] [info] Attempting to load global config at D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\modengine2\config.toml
+[2025-04-23 22:38:55.970] [modengine] [info] Attempting to load mod settings config at D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\config_darksouls3.toml
+[2025-04-23 22:38:55.971] [modengine] [info] Local config loaded
+[2025-04-23 22:38:55.971] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2025-04-23 22:38:55.971] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2025-04-23 22:38:55.971] [modengine] [info] Main thread ID: 20224
+[2025-04-23 22:38:56.023] [modengine] [info] Loaded external DLL D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\mod_3rd_party/d3d11.dll
+[2025-04-23 22:38:56.023] [modengine] [warning] External dll D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\mod_3rd_party/d3d11.dll at base address 0x7ffad5b50000 is not a modengine extension
+[2025-04-23 22:38:56.023] [modengine] [info] Enabling extension base
+[2025-04-23 22:38:56.023] [modengine] [info] Enabled extension base
+[2025-04-23 22:38:56.023] [modengine] [info] Enabling extension mod_loader
+[2025-04-23 22:38:56.023] [modengine] [info] Installing mod location mod
+[2025-04-23 22:38:56.023] [modengine] [info] Resolved mod path to D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\mod
+[2025-04-23 22:38:56.023] [modengine] [info] Enabled extension mod_loader
+[2025-04-23 22:38:56.023] [modengine] [info] Enabling extension scylla_hide
+[2025-04-23 22:38:56.023] [modengine] [info] Found valid ScyllaHide injector. Injecting into game.
+[2025-04-23 22:38:56.023] [modengine] [info] Starting ScyllaHide injector: D:\Sync\Desktop\Quality Souls 3\ModEngine-2.1.0.0-win64\modengine2\tools\scyllahide\InjectorCLIx64.exe pid:10548 ./HookLibraryx64.dll nowait
+[2025-04-23 22:38:56.027] [modengine] [info] Launched Scyllahide process.
+[2025-04-23 22:38:56.343] [modengine] [info] ScyllaHide successfully injected
+[2025-04-23 22:38:56.343] [modengine] [info] Enabled extension scylla_hide
+[2025-04-23 22:38:56.373] [modengine] [info] Applied 3 hooks
+[2025-04-23 22:38:56.374] [modengine] [info] Starting worker thread
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:39:34.035] [modengine] [info] Destroying
+[2025-04-23 22:49:16.368] [modengine] [info] Attempting to load global config at D:\Sync\Desktop\Quality Souls 3\modengine2\config.toml
+[2025-04-23 22:49:16.368] [modengine] [info] Attempting to load mod settings config at D:\Sync\Desktop\Quality Souls 3\config_darksouls3.toml
+[2025-04-23 22:49:16.368] [modengine] [info] Local config loaded
+[2025-04-23 22:49:16.368] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2025-04-23 22:49:16.368] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2025-04-23 22:49:16.368] [modengine] [info] Main thread ID: 25972
+[2025-04-23 22:49:16.370] [modengine] [info] Enabling extension base
+[2025-04-23 22:49:16.370] [modengine] [info] Enabled extension base
+[2025-04-23 22:49:16.370] [modengine] [info] Enabling extension mod_loader
+[2025-04-23 22:49:16.370] [modengine] [info] Installing mod location mod
+[2025-04-23 22:49:16.370] [modengine] [info] Resolved mod path to D:\Sync\Desktop\Quality Souls 3\mod
+[2025-04-23 22:49:16.370] [modengine] [info] Enabled extension mod_loader
+[2025-04-23 22:49:16.370] [modengine] [info] Enabling extension scylla_hide
+[2025-04-23 22:49:16.370] [modengine] [info] Found valid ScyllaHide injector. Injecting into game.
+[2025-04-23 22:49:16.370] [modengine] [info] Starting ScyllaHide injector: D:\Sync\Desktop\Quality Souls 3\modengine2\tools\scyllahide\InjectorCLIx64.exe pid:4828 ./HookLibraryx64.dll nowait
+[2025-04-23 22:49:16.372] [modengine] [info] Launched Scyllahide process.
+[2025-04-23 22:49:16.680] [modengine] [info] ScyllaHide successfully injected
+[2025-04-23 22:49:16.680] [modengine] [info] Enabled extension scylla_hide
+[2025-04-23 22:49:16.712] [modengine] [info] Applied 3 hooks
+[2025-04-23 22:49:16.713] [modengine] [info] Starting worker thread
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:49:45.398] [modengine] [info] Destroying
+[2025-04-23 22:50:27.780] [modengine] [info] Attempting to load global config at D:\Sync\Desktop\Quality Souls 3\modengine2\config.toml
+[2025-04-23 22:50:27.780] [modengine] [info] Attempting to load mod settings config at D:\Sync\Desktop\Quality Souls 3\config_darksouls3.toml
+[2025-04-23 22:50:27.780] [modengine] [info] Local config loaded
+[2025-04-23 22:50:27.780] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2025-04-23 22:50:27.780] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2025-04-23 22:50:27.780] [modengine] [info] Main thread ID: 4504
+[2025-04-23 22:50:27.783] [modengine] [info] Enabling extension base
+[2025-04-23 22:50:27.783] [modengine] [info] Enabled extension base
+[2025-04-23 22:50:27.783] [modengine] [info] Enabling extension mod_loader
+[2025-04-23 22:50:27.783] [modengine] [info] Installing mod location mod
+[2025-04-23 22:50:27.783] [modengine] [info] Resolved mod path to D:\Sync\Desktop\Quality Souls 3\mod
+[2025-04-23 22:50:27.783] [modengine] [info] Enabled extension mod_loader
+[2025-04-23 22:50:27.783] [modengine] [info] Enabling extension scylla_hide
+[2025-04-23 22:50:27.783] [modengine] [info] Found valid ScyllaHide injector. Injecting into game.
+[2025-04-23 22:50:27.783] [modengine] [info] Starting ScyllaHide injector: D:\Sync\Desktop\Quality Souls 3\modengine2\tools\scyllahide\InjectorCLIx64.exe pid:12244 ./HookLibraryx64.dll nowait
+[2025-04-23 22:50:27.786] [modengine] [info] Launched Scyllahide process.
+[2025-04-23 22:50:28.119] [modengine] [info] ScyllaHide successfully injected
+[2025-04-23 22:50:28.119] [modengine] [info] Enabled extension scylla_hide
+[2025-04-23 22:50:28.149] [modengine] [info] Applied 3 hooks
+[2025-04-23 22:50:28.151] [modengine] [info] Starting worker thread
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying
+[2025-04-23 22:53:08.441] [modengine] [info] Destroying

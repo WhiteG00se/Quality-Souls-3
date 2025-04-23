@@ -1,10 +1,13 @@
 # [Changelog/Wiki](https://docs.google.com/spreadsheets/d/1cLGpEeVsGHx00jae8_SdM3i4xDDLz1BxHn5Na09YOF0/edit?usp=sharing)
 
-# 3rd Party Mods
+# included 3rd Party Mods
+
+- ModEngine2 https://github.com/soulsmods/ModEngine2
+
+# recommended 3rd Party Mods
 
 - Proper PC Experience Mod https://www.nexusmods.com/darksouls3/mods/1545?tab=files
 - Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
-- DS3 Mod Engine https://www.nexusmods.com/darksouls3/mods/332
 
 # how to install
 
