@@ -1,6 +1,8 @@
 [modengine]
 debug = false
-external_dlls = []
+external_dlls = [
+    "SeamlessCoop/ds3sc.dll",
+]
 
 [extension.mod_loader]
 enabled = true

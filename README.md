@@ -7,7 +7,7 @@
 # recommended 3rd Party Mods
 
 - Proper PC Experience Mod https://www.nexusmods.com/darksouls3/mods/1545?tab=files
-- Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
+- Seamless Coop (drop the "SeamlessCoop" folder into the root of this mod) https://www.nexusmods.com/darksouls3/mods/1895?tab=files&file_id=7074
 
 # how to install
 
