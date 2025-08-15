@@ -4,10 +4,7 @@
 
 - ModEngine2 https://github.com/soulsmods/ModEngine2
 - Seamless Coop https://www.nexusmods.com/darksouls3/mods/1895?tab=files&file_id=7074
-
-# recommended 3rd Party Mods
-
-- Proper PC Experience Mod (drop into the same folder as the game's .exe) https://www.nexusmods.com/darksouls3/mods/1545?tab=files
+- Proper PC Experience Mod https://www.nexusmods.com/darksouls3/mods/1545?tab=files
 
 # how to install
 

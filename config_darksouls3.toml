@@ -2,6 +2,7 @@
 debug = false
 external_dlls = [
     "SeamlessCoop/ds3sc.dll",
+    "proper_pc_experience_mod/d3d11.dll"
 ]
 
 [extension.mod_loader]
