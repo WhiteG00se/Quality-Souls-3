@@ -13,10 +13,12 @@
 
 ## with GIT client (recommended)
 
-- GIT CLONE this repo
+- GIT CLONE this repo (anywhere you like, but not into the game folder)
 - run z_launchmod_darksouls3.bat
+- change "Launch Settings" to "Play Offline" ingame and restart the game
 
 ## without GIT client
 
-- download this repo ("code" -> "Download ZIP")
+- download this repo ("code" -> "Download ZIP") and unzip it (anywhere you like, but not into the game folder)
 - run z_launchmod_darksouls3.bat
+- change "Launch Settings" to "Play Offline" ingame and restart the game
