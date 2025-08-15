@@ -22,3 +22,7 @@
 - download this repo ("code" -> "Download ZIP") and unzip it (anywhere you like, but not into the game folder)
 - run z_launchmod_darksouls3.bat
 - change "Launch Settings" to "Play Offline" ingame and restart the game
+
+# important info
+
+- Seamless Coop is not compatible with Steam save game cloud sync
