@@ -8,16 +8,14 @@
 
 # how to install
 
-## with GIT client (recommended)
+- either GIT CLONE this repo or download this repo ("code" -> "Download ZIP") and unzip it (to anywhere you like, but not into the game folder)
 
-- GIT CLONE this repo (anywhere you like, but not into the game folder)
+- move the files from the "proper_pc_experience_mod" folder into the same folder as the game's .exe ("[...]\steamapps\common\DARK SOULS III\Game")
+
+- edit the files "d3d11_fov.ini", "d3d11_fps.ini" and "d3d11_refreshrate.ini" to your liking. The fov number is added to the game's default and it's in degrees. For refreshrate I recommend your screen's native refresh rate in most cases. For fps I recommend 60, 90 or 120, other numbers will mess with the physics.
+
 - run z_launchmod_darksouls3.bat
-- change "Launch Settings" to "Play Offline" ingame and restart the game
 
-## without GIT client
-
-- download this repo ("code" -> "Download ZIP") and unzip it (anywhere you like, but not into the game folder)
-- run z_launchmod_darksouls3.bat
 - change "Launch Settings" to "Play Offline" ingame and restart the game
 
 # important info
