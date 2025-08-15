@@ -1,0 +1,253 @@
+## Healing Radius Buffs
+param Bullet: id (10642101|10642201|10642301|10642401|210640001): hitRadius: = 40
+param Bullet: id 10744200: hitRadius: = 60
+param Bullet: id 10642401: hitRadiusMax: = 40
+
+## (unique) Ashes
+## Devourer of Worlds
+param SwordArtsParam: id 1183: useMagicPoint_L2: = 35
+param SpEffectParam: id 1896: changeHpRate: = -10
+param SpEffectParam: id 1896: changeMpRate: = -1
+
+## Armor
+## Scaled Gauntlets
+param SpEffectParam: id 7001200: changeHpRate: = -1
+param SpEffectParam: id 7001200: changeMpRate: = -1
+param SpEffectParam: id 7001200: changeStaminaRate: = -3
+## Godrick Knight Gauntlets
+param SpEffectParam: id 7003200: changeHpRate: = -3
+param SpEffectParam: id 7003200: changeMpRate: = -3
+
+## Spells
+## Urgent Heal
+param Magic: id 6420: mp: = 55
+param Magic: id 6420: requirementIntellect: = 0
+param Magic: id 6420: requirementFaith: = 15
+param Magic: id 6420: requirementLuck: = 0
+param SpEffectParam: id 1642000: changeHpPoint: = 0
+param SpEffectParam: id 1642000: changeHpRate: = -20
+param SpEffectParam: id 1642000: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1642000: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1642000: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1642000: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1642000: isUseAtkParamAtkPowerCorrect: = 0
+## Heal
+param Magic: id 6421: mp: = 100
+param Magic: id 6421: requirementIntellect: = 0
+param Magic: id 6421: requirementFaith: = 15
+param Magic: id 6421: requirementLuck: = 0
+param SpEffectParam: id 1642100: changeHpPoint: = 0
+param SpEffectParam: id 1642101: changeHpPoint: = 0
+param SpEffectParam: id 1642100: changeHpRate: = -25
+param SpEffectParam: id 1642101: changeHpRate: = -25
+param SpEffectParam: id 1642100: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1642100: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1642100: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1642100: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1642100: isUseAtkParamAtkPowerCorrect: = 0
+param SpEffectParam: id 1642101: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1642101: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1642101: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1642101: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1642101: isUseAtkParamAtkPowerCorrect: = 0
+## Great Heal
+param Magic: id 6422: mp: = 150
+param Magic: id 6422: requirementIntellect: = 0
+param Magic: id 6422: requirementFaith: = 25
+param Magic: id 6422: requirementLuck: = 0
+param SpEffectParam: id 1642200: changeHpPoint: = 0
+param SpEffectParam: id 1642201: changeHpPoint: = 0
+param SpEffectParam: id 1642200: changeHpRate: = -40
+param SpEffectParam: id 1642201: changeHpRate: = -40
+param SpEffectParam: id 1642200: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1642200: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1642200: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1642200: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1642200: isUseAtkParamAtkPowerCorrect: = 0
+param SpEffectParam: id 1642201: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1642201: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1642201: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1642201: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1642201: isUseAtkParamAtkPowerCorrect: = 0
+## Heal from Afar
+param Magic: id 2006400: mp: = 175
+param Magic: id 2006400: requirementIntellect: = 0
+param Magic: id 2006400: requirementFaith: = 35
+param Magic: id 2006400: requirementLuck: = 0
+param SpEffectParam: id 21640000: changeHpPoint: = 0
+param SpEffectParam: id 21640001: changeHpPoint: = 0
+param SpEffectParam: id 21640000: changeHpRate: = -50
+param SpEffectParam: id 21640001: changeHpRate: = -50
+param SpEffectParam: id 21640000: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 21640000: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 21640000: bAdjustMagicAblity: = 0
+param SpEffectParam: id 21640000: bAdjustFaithAblity: = 0
+param SpEffectParam: id 21640000: isUseAtkParamAtkPowerCorrect: = 0
+param SpEffectParam: id 21640001: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 21640001: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 21640001: bAdjustMagicAblity: = 0
+param SpEffectParam: id 21640001: bAdjustFaithAblity: = 0
+param SpEffectParam: id 21640001: isUseAtkParamAtkPowerCorrect: = 0
+## Lord's Heal
+param Magic: id 6423: mp: = 240
+param Magic: id 6423: requirementIntellect: = 0
+param Magic: id 6423: requirementFaith: = 42
+param Magic: id 6423: requirementLuck: = 0
+param SpEffectParam: id 1642300: changeHpPoint: = 0
+param SpEffectParam: id 1642301: changeHpPoint: = 0
+param SpEffectParam: id 1642300: changeHpRate: = -75
+param SpEffectParam: id 1642301: changeHpRate: = -75
+param SpEffectParam: id 1642300: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1642300: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1642300: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1642300: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1642300: isUseAtkParamAtkPowerCorrect: = 0
+param SpEffectParam: id 1642301: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1642301: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1642301: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1642301: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1642301: isUseAtkParamAtkPowerCorrect: = 0
+## Erdtree Heal
+param Magic: id 6424: mp: = 275
+param Magic: id 6424: requirementIntellect: = 0
+param Magic: id 6424: requirementFaith: = 50
+param Magic: id 6424: requirementLuck: = 0
+param SpEffectParam: id 1642400: changeHpPoint: = 0
+param SpEffectParam: id 1642401: changeHpPoint: = 0
+param SpEffectParam: id 1642400: changeHpRate: = -100
+param SpEffectParam: id 1642401: changeHpRate: = -100
+param SpEffectParam: id 1642400: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1642400: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1642400: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1642400: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1642400: isUseAtkParamAtkPowerCorrect: = 0
+param SpEffectParam: id 1642401: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1642401: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1642401: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1642401: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1642401: isUseAtkParamAtkPowerCorrect: = 0
+## Ancestral Conduit - workaround for fp bug - Heal from Afar Animation & disable Sfx
+param Magic: id 7442: fireSfxId: = -1
+param Magic: id 7442: refType: = 130
+param Magic: id 7442: mp: = 120
+param Magic: id 7442: consumeLoopMP_forMenu: = 0
+param Magic: id 7442: requirementIntellect: = 0
+param Magic: id 7442: requirementFaith: = 20
+param Magic: id 7442: requirementLuck: = 20
+param SpEffectParam: id 1744205: changeHpPoint: = 0
+param SpEffectParam: id 1744200: changeHpPoint: = 0
+param SpEffectParam: id 1744205: changeHpRate: = -30
+param SpEffectParam: id 1744200: changeHpRate: = -30
+param SpEffectParam: id 1744205: changeMpRate: = -6
+param SpEffectParam: id 1744200: changeMpRate: = -6
+param SpEffectParam: id 1744205: changeStaminaRate: = -50
+param SpEffectParam: id 1744200: changeStaminaRate: = -50
+param SpEffectParam: id 1744205: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1744205: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1744205: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1744205: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1744205: isUseAtkParamAtkPowerCorrect: = 0
+param SpEffectParam: id 1744200: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1744200: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1744200: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1744200: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1744200: isUseAtkParamAtkPowerCorrect: = 0
+## Siphon the Formless - workaround for fp bug - Close Wound Animation
+param Magic: id 6322: refType: = 110
+param Magic: id 6322: mp: = 55
+param Magic: id 6322: consumeLoopMP_forMenu: = 0
+param Magic: id 6322: requirementIntellect: = 0
+param Magic: id 6322: requirementFaith: = 0
+param Magic: id 6322: requirementLuck: = 15
+param SpEffectParam: id 1632200: changeHpPoint: = 0
+param SpEffectParam: id 1632200: changeHpRate: = -20
+param SpEffectParam: id 1632200: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1632200: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1632200: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1632200: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1632200: isUseAtkParamAtkPowerCorrect: = 0
+## Close Wound
+param Magic: id 4970: mp: = 55
+param Magic: id 4970: consumeLoopMP_forMenu: = 0
+param Magic: id 4970: requirementIntellect: = 15
+param Magic: id 4970: requirementFaith: = 0
+param Magic: id 4970: requirementLuck: = 0
+param SpEffectParam: id 1497000: changeHpPoint: = 0
+param SpEffectParam: id 1497000: changeHpRate: = -20
+param SpEffectParam: id 1497000: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1497000: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1497000: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1497000: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1497000: isUseAtkParamAtkPowerCorrect: = 0
+## Blessing of Grace
+param Magic: id 6790: mp: = 1
+param Magic: id 6790: requirementIntellect: = 0
+param Magic: id 6790: requirementFaith: = 36
+param Magic: id 6790: requirementLuck: = 0
+param SpEffectParam: id 1679000: changeHpPoint: = 0
+param SpEffectParam: id 1679000: changeHpRate: = -10
+param SpEffectParam: id 1679000: motionInterval: = 10
+param SpEffectParam: id 1679000: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1679000: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1679000: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1679000: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1679000: isUseAtkParamAtkPowerCorrect: = 0
+## Greater Blessing of Grace
+param SpEffectParam: id 1679005: changeHpPoint: = 0
+param SpEffectParam: id 1679005: changeHpRate: = -12
+param SpEffectParam: id 1679005: motionInterval: = 10
+param SpEffectParam: id 1679005: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1679005: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1679005: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1679005: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1679005: isUseAtkParamAtkPowerCorrect: = 0
+## Crucible Vitality
+param Magic: id 6840: mp: = 125
+param Magic: id 6840: requirementIntellect: = 0
+param Magic: id 6840: requirementFaith: = 20
+param Magic: id 6840: requirementLuck: = 0
+param SpEffectParam: id 1684000: changeHpPoint: = 0
+param SpEffectParam: id 1684000: changeHpRate: = -15
+param SpEffectParam: id 1684000: motionInterval: = 5
+param SpEffectParam: id 1684000: effectEndurance: = 20
+param SpEffectParam: id 1684000: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1684000: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1684000: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1684000: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1684000: isUseAtkParamAtkPowerCorrect: = 0
+## Crucible Vitality (buffed)
+param SpEffectParam: id 1684050: changeHpPoint: = 0
+param SpEffectParam: id 1684050: changeHpRate: = -18
+param SpEffectParam: id 1684050: motionInterval: = 5
+param SpEffectParam: id 1684050: effectEndurance: = 20
+param SpEffectParam: id 1684050: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1684050: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1684050: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1684050: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1684050: isUseAtkParamAtkPowerCorrect: = 0
+## Crucible Vitality (both)
+param SpEffectParam: id 1685000: changeStaminaPoint: = 0
+param SpEffectParam: id 1685000: changeStaminaRate: = -20
+param SpEffectParam: id 1685000: motionInterval: = 5
+param SpEffectParam: id 1685000: effectEndurance: = 20
+param SpEffectParam: id 1685000: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1685000: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1685000: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1685000: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1685000: isUseAtkParamAtkPowerCorrect: = 0
+## "Crucible Heal" 5%
+param SpEffectParam: id 550000: changeHpPoint: = 0
+param SpEffectParam: id 550000: changeHpRate: = -3
+param SpEffectParam: id 550000: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 550000: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 550000: bAdjustMagicAblity: = 0
+param SpEffectParam: id 550000: bAdjustFaithAblity: = 0
+param SpEffectParam: id 550000: isUseAtkParamAtkPowerCorrect: = 0
+## "Crucible Heal (improved)"
+param SpEffectParam: id 550005: changeHpPoint: = 0
+param SpEffectParam: id 550005: changeHpRate: = -5
+param SpEffectParam: id 550005: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 550005: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 550005: bAdjustMagicAblity: = 0
+param SpEffectParam: id 550005: bAdjustFaithAblity: = 0
+param SpEffectParam: id 550005: isUseAtkParamAtkPowerCorrect: = 0

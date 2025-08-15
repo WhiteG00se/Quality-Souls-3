@@ -1,0 +1,62 @@
+## changed catalyst  element scaling from 100/80/60/40 to 100/95/80/60
+## Linear Single Scaling (100%) => 100%
+param CalcCorrectGraph: id 20: stageMaxGrowVal0: = 20
+param CalcCorrectGraph: id 20: stageMaxGrowVal1: = 40
+param CalcCorrectGraph: id 20: stageMaxGrowVal2: = 60
+param CalcCorrectGraph: id 20: stageMaxGrowVal3: = 80
+param CalcCorrectGraph: id 20: stageMaxGrowVal4: = 100
+## Linear Single Scaling (80%) => 95%
+param CalcCorrectGraph: id 21: stageMaxGrowVal0: = 19
+param CalcCorrectGraph: id 21: stageMaxGrowVal1: = 38
+param CalcCorrectGraph: id 21: stageMaxGrowVal2: = 57
+param CalcCorrectGraph: id 21: stageMaxGrowVal3: = 76
+param CalcCorrectGraph: id 21: stageMaxGrowVal4: = 95
+## Linear Single Scaling (60%) => 80%
+param CalcCorrectGraph: id 22: stageMaxGrowVal0: = 16
+param CalcCorrectGraph: id 22: stageMaxGrowVal1: = 32
+param CalcCorrectGraph: id 22: stageMaxGrowVal2: = 48
+param CalcCorrectGraph: id 22: stageMaxGrowVal3: = 64
+param CalcCorrectGraph: id 22: stageMaxGrowVal4: = 80
+## Linear Single Scaling (40%) => 60%
+param CalcCorrectGraph: id 26: stageMaxGrowVal0: = 12
+param CalcCorrectGraph: id 26: stageMaxGrowVal1: = 24
+param CalcCorrectGraph: id 26: stageMaxGrowVal2: = 36
+param CalcCorrectGraph: id 26: stageMaxGrowVal3: = 48
+param CalcCorrectGraph: id 26: stageMaxGrowVal4: = 60
+## Linear Dual Scaling (100%) => 100%
+param CalcCorrectGraph: id 23: stageMaxGrowVal0: = 1
+param CalcCorrectGraph: id 23: stageMaxGrowVal1: = 25
+param CalcCorrectGraph: id 23: stageMaxGrowVal2: = 50
+param CalcCorrectGraph: id 23: stageMaxGrowVal3: = 50
+param CalcCorrectGraph: id 23: stageMaxGrowVal4: = 50
+## Linear Dual Scaling (80%) => 95%
+param CalcCorrectGraph: id 24: stageMaxGrowVal0: = 1
+param CalcCorrectGraph: id 24: stageMaxGrowVal1: = 22.5
+param CalcCorrectGraph: id 24: stageMaxGrowVal2: = 45
+param CalcCorrectGraph: id 24: stageMaxGrowVal3: = 45
+param CalcCorrectGraph: id 24: stageMaxGrowVal4: = 45
+## Linear Dual Scaling (60%) => 80%
+param CalcCorrectGraph: id 25: stageMaxGrowVal0: = 1
+param CalcCorrectGraph: id 25: stageMaxGrowVal1: = 20
+param CalcCorrectGraph: id 25: stageMaxGrowVal2: = 40
+param CalcCorrectGraph: id 25: stageMaxGrowVal3: = 40
+param CalcCorrectGraph: id 25: stageMaxGrowVal4: = 40
+## Linear Dual Scaling (40%) => 60%
+param CalcCorrectGraph: id 27: stageMaxGrowVal0: = 1
+param CalcCorrectGraph: id 27: stageMaxGrowVal1: = 15
+param CalcCorrectGraph: id 27: stageMaxGrowVal2: = 30
+param CalcCorrectGraph: id 27: stageMaxGrowVal3: = 30
+param CalcCorrectGraph: id 27: stageMaxGrowVal4: = 30
+
+## Energy Shell
+param Magic: id 4160: mp: = 0
+param Magic: id 4160: requirementIntellect: = 15
+
+## Ire of the Dragon God - less extreme animation
+## change (default is 1645257)
+param Bullet: id 10698102: sfxId_Bullet: = 642661
+## remove
+param Bullet: id 10698101: sfxId_Hit: = -1
+param Bullet: id 10698103: sfxId_Bullet: = -1
+param Bullet: id 10698111: sfxId_Hit: = -1
+param Bullet: id 10698111: sfxId_Bullet: = -1
