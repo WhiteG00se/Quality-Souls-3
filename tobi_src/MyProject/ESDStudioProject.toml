@@ -1,0 +1,7 @@
+title = "ESDStudioProject"
+[project_info]
+name = "MyProject"
+base_directory = "D:\\GIT\\Quality-Souls-3\\tobi_src\\MyProject"
+game_directory = "D:\\Games\\Steam\\steamapps\\common\\DARK SOULS III\\Game"
+mod_directory = "D:\\GIT\\Quality-Souls-3\\mod"
+game = "ds3"
