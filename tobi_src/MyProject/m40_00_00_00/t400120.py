@@ -141,8 +141,12 @@ def t400120_x8(goods1=2138, goods2=390):
         """State 2"""
         # action:15002000:"Level Up"
         AddTalkListData(1, 15002000, -1)
+        # action:15027010:"Reallocate attributes"
+        AddTalkListData(2, 15027010, -1)
+        # action:15027011:"Alter appearance"
+        AddTalkListData(3, 15027011, -1)
         # action:15002004:"Heal the Dark Sigil"
-        AddTalkListData(4, 15002004, 74000125)
+        AddTalkListDataIf(GetEventFlag(74000125), 4, 15002004, -1)
         # goods:2138:Eyes of a Fire Keeper
         # action:15002001:"Give <?gdsparam@2138?>"
         AddTalkListDataIf(ComparePlayerInventoryNumber(ItemType.Goods, goods1, CompareType.Greater, 0, False),
@@ -212,6 +216,62 @@ def t400120_x8(goods1=2138, goods2=390):
                 # goods:490:Dark Sigil
                 assert t400120_x23(goods3=490, z1=0)
                 continue
+        elif GetTalkListEntryResult() == 2:
+            """State 22,23"""
+            # This dialog text may mention Pale Tongues and limits, but the functionality is free and unlimited.
+            # action:12027020:"...Do you wish to be reborn?"
+            call = t400120_x0(action2=12027020)
+            if call.Get() == 0:
+                # Confirmed. The following flags handle camera/animations for the menu.
+                SetEventFlag(73500161, FlagState.On)
+                SetEventFlag(73500162, FlagState.On)
+                assert GetCurrentStateElapsedTime() > 3
+                SetEventFlag(73500164, FlagState.On)
+                assert GetCurrentStateElapsedTime() > 1
+                
+                ReallocateAttributes()
+                ClearTalkActionState()
+                
+                def ExitPause():
+                    SetEventFlag(73500161, FlagState.Off)
+                
+                assert not (CheckSpecificPersonMenuIsOpen(19, 0) and not CheckSpecificPersonGenericDialogIsOpen(0))
+                
+                SetEventFlag(73500164, FlagState.Off)
+                
+                assert GetCurrentStateElapsedTime() > 1.5
+            elif call.Done():
+                # Cancelled
+                pass
+            continue
+        elif GetTalkListEntryResult() == 3:
+            """State 24,25"""
+            # This dialog text may mention Pale Tongues and limits, but the functionality is free and unlimited.
+            # action:12027021:"...Do you wish to be reborn?"
+            call = t400120_x0(action2=12027021)
+            if call.Get() == 0:
+                # Confirmed. The following flags handle camera/animations for the menu.
+                SetEventFlag(73500161, FlagState.On)
+                SetEventFlag(73500162, FlagState.On)
+                assert GetCurrentStateElapsedTime() > 3
+                SetEventFlag(73500164, FlagState.On)
+                assert GetCurrentStateElapsedTime() > 1
+                
+                OpenCharaMakeMenu()
+                ClearTalkActionState()
+                
+                def ExitPause():
+                    SetEventFlag(73500161, FlagState.Off)
+                
+                assert not (CheckSpecificPersonMenuIsOpen(16, 0) and not CheckSpecificPersonGenericDialogIsOpen(0))
+                
+                SetEventFlag(73500164, FlagState.Off)
+                
+                assert GetCurrentStateElapsedTime() > 1.5
+            elif call.Done():
+                # Cancelled
+                pass
+            continue
         """State 12,20"""
         assert t400120_x7(action1=13002040)
 
@@ -732,4 +792,3 @@ def t400120_x26():
     """Unused"""
     """State 6"""
     return 0
-
