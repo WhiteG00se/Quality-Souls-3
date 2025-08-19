@@ -1,6 +1,7 @@
-## starting flasks 3+1 => 3+1
-param CharaInitParam: idrange 3000 3299 && positive HpEstMax  : HpEstMax: = 1
-param CharaInitParam: idrange 3000 3299 && positive MpEstMax  : MpEstMax: = 0
+## starting flasks 3+1 => 1+1 (_07 is red cap, _08 is blue cap, _01 is red in inventory)
+param CharaInitParam: idrange 3000 3009: secondaryItemNum_07: = 1
+param CharaInitParam: idrange 3000 3009: secondaryItemNum_08: = 1
+param CharaInitParam: idrange 3000 3009: itemNum_01: = 1
 
 
 ## red flask rework (check wiki)
