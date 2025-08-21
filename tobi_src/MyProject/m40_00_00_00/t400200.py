@@ -782,14 +782,14 @@ def t400200_x23(goods5=150, goods6=2141, val1=14):
             if GetEstusAllocation(EstusType.HP) + GetEstusAllocation(EstusType.FP) < val1:
                 """State 1"""
                 # goods:2141:Estus Shard
-                if ComparePlayerInventoryNumber(ItemType.Goods, goods6, CompareType.Greater, 0, False):
+                if ComparePlayerInventoryNumber(ItemType.Goods, goods6, CompareType.Greater, 3, False):
                     """State 2,14"""
                     # action:12002003:"Use <?gdsparam@2141?> to reinforce Estus Flask?"
                     call = t400200_x0(action2=12002003)
                     if call.Get() == 0:
                         """State 4,6"""
                         # goods:2141:Estus Shard
-                        PlayerEquipmentQuantityChange(ItemType.Goods, goods6, -1)
+                        PlayerEquipmentQuantityChange(ItemType.Goods, goods6, -4)
                         """State 7"""
                         EstusAllocationUpdate(GetEstusAllocation(EstusType.HP) + 1, 0)
                         """State 16"""
