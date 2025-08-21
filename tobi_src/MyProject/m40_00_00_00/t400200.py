@@ -204,7 +204,7 @@ def t400200_x10(goods5=150, goods7=_):
     """State 6"""
     return 1
 
-def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, goods6=2141, val1=14):
+def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, goods6=2141, val1=2):
     """State 0,18"""
     MainBonfireMenuFlag()
     while True:
@@ -392,7 +392,7 @@ def t400200_x12():
         # goods:170:Estus Flask+10
         # goods:210:Ashen Estus Flask+10
         # goods:2141:Estus Shard
-        assert t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, goods6=2141, val1=14)
+        assert t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, goods6=2141, val1=2)
     else:
         """State 6,13"""
         # talk:20001700:"Overstep not yer bounds, cousin."
