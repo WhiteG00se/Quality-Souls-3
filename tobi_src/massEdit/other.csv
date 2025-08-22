@@ -1,25 +1,8 @@
-## disable lock on
-## param LockCamParam: !id 0: chrLockRangeMaxRadius: = 0
-## param LockCamParam: id 0: chrLockRangeMaxRadius: = 0
-## param NpcParam: !id 0: lockDist: = 0
-## param NpcParam: id 0: lockDist: = 0
-
-## Retrieve lost runes
-param ActionButtonParam: id 1000: radius: = 1000000
-param ActionButtonParam: id 1000: height: = 1000000
-param ActionButtonParam: id 1000: baseHeightOffset: = -700000
-
 ## increase FOV, default is 48
 param LockCamParam: id 0: camFovY: = 54
 
-## Deflecting Hardtear - infinite duration
-param SpEffectParam: id 102000: effectEndurance: = -1 
-
 ## +1FP/sec base + +1FP/sec bonus per 100 max FP
 param SpEffectParam: id 330: changeMpRate: = -1
-
-## disable FP regen on shield of starlight
-param SpEffectParam: id 5029000: changeMpPoint: = -0
 
 ## set all starting classes to level 1 / 10 in every stat
 param CharaInitParam: idrange 3000 3299: soulLv: = 1
