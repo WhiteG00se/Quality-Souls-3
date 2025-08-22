@@ -20,7 +20,7 @@ param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
 param EquipParamWeapon: prop wepType 1: throwAtkRate: = 80
 
 ## disable all stagger
-param AtkParam_Pc: positive dmgLevel: dmgLevel: = 0
+param AtkParam_Pc: positive damageLevel: damageLevel: = 0
 
 ## Lower fall damage, from 20-50% at 5 to 20 meters to 8-20% at 8 to 20 meters
 param CalcCorrectGraph: id 210: stageMaxVal0: = 8
