@@ -34,6 +34,13 @@ param CalcCorrectGraph: id 210: stageMaxGrowVal2: = 8
 param CalcCorrectGraph: id 210: stageMaxGrowVal3: = 20
 param CalcCorrectGraph: id 210: stageMaxGrowVal4: = 20
 
+## 2x the FP at any level of ATN
+param CalcCorrectGraph: id 101: stageMaxGrowVal0: = 100
+param CalcCorrectGraph: id 101: stageMaxGrowVal1: = 240
+param CalcCorrectGraph: id 101: stageMaxGrowVal2: = 560
+param CalcCorrectGraph: id 101: stageMaxGrowVal3: = 700
+param CalcCorrectGraph: id 101: stageMaxGrowVal4: = 900
+
 ## make level ups cost 0 souls
 param CalcCorrectGraph: id 200: init_inclination_soul: = 8
 param CalcCorrectGraph: id 200: adjustment_value: = 8
