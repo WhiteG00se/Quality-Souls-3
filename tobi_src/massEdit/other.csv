@@ -33,15 +33,3 @@ param CalcCorrectGraph: id 210: stageMaxGrowVal1: = 8
 param CalcCorrectGraph: id 210: stageMaxGrowVal2: = 8
 param CalcCorrectGraph: id 210: stageMaxGrowVal3: = 20
 param CalcCorrectGraph: id 210: stageMaxGrowVal4: = 20
-
-## buff equip load gain from endurance
-param CalcCorrectGraph: id 220: stageMaxVal0: = 1				
-param CalcCorrectGraph: id 220: stageMaxVal1: = 15
-param CalcCorrectGraph: id 220: stageMaxVal2: = 30
-param CalcCorrectGraph: id 220: stageMaxVal3: = 50
-param CalcCorrectGraph: id 220: stageMaxVal4: = 99
-param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10				
-param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 55
-param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 100
-param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 130
-param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 190
