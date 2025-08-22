@@ -45,10 +45,3 @@ param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 55
 param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 100
 param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 130
 param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 190
-
-## lower weapon stat requirements (not for shields and catalysts)
-param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properStrength 10 20: properStrength: = 10
-param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properAgility 10 20: properAgility: = 10
-param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properMagic 10 20: properMagic: = 10
-param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properFaith 10 20: properFaith: = 10
-param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properLuck 10 20: properLuck: = 10
