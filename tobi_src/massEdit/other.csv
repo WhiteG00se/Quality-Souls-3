@@ -2,16 +2,16 @@
 param LockCamParam: id 0: camFovY: = 54
 
 ## set all starting classes to level 1 / 10 in every stat
-param CharaInitParam: idrange 3000 3299: soulLv: = 1
-param CharaInitParam: idrange 3000 3299: baseVit: = 10
-param CharaInitParam: idrange 3000 3299: baseWil: = 10
-param CharaInitParam: idrange 3000 3299: baseEnd: = 10
-param CharaInitParam: idrange 3000 3299: baseStr: = 10
-param CharaInitParam: idrange 3000 3299: baseDex: = 10
-param CharaInitParam: idrange 3000 3299: baseMag: = 10
-param CharaInitParam: idrange 3000 3299: baseFai: = 10
-param CharaInitParam: idrange 3000 3299: baseLuc: = 10
-
+param CharaInitParam: idrange 3000 3009: soulLvl: = 1
+param CharaInitParam: idrange 3000 3009: baseVit: = 10
+param CharaInitParam: idrange 3000 3009: baseWil: = 10
+param CharaInitParam: idrange 3000 3009: baseEnd: = 10
+param CharaInitParam: idrange 3000 3009: baseDurability: = 10
+param CharaInitParam: idrange 3000 3009: baseStr: = 10
+param CharaInitParam: idrange 3000 3009: baseDex: = 10
+param CharaInitParam: idrange 3000 3009: baseMag: = 10
+param CharaInitParam: idrange 3000 3009: baseFai: = 10
+param CharaInitParam: idrange 3000 3009: baseLuc: = 10
 
 ## only daggers can now backstabs and ripostes
 param EquipParamWeapon: prop wepType 1: enableThrow: = 1
