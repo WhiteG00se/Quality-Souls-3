@@ -14,10 +14,10 @@ param CharaInitParam: idrange 3000 3009: baseFai: = 10
 param CharaInitParam: idrange 3000 3009: baseLuc: = 10
 
 ## only daggers can now backstabs and ripostes
-param EquipParamWeapon: prop wepType 1: enableThrow: = 1
-param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
+##param EquipParamWeapon: prop wepType 1: enableThrow: = 1
+##param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
 ## all daggers now have 1.60 crit multi ("160" in game)
-param EquipParamWeapon: prop wepType 1: throwAtkRate: = 80
+##param EquipParamWeapon: prop wepType 1: throwAtkRate: = 80
 
 ## disable all stagger
 param AtkParam_Pc: positive damageLevel: damageLevel: = 0

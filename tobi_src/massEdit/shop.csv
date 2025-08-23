@@ -19,4 +19,4 @@ param EquipParamWeapon: positive shopId: shopId: = 0
 param ShopLineupParam: positive value: value: = 0
 
 ## Brother Corhyn offers "[Incantation] Heal" again instead of "[Incantation] Rune Shards"
-param ShopLineupParam: id 100352: equipId: = 6421
+##param ShopLineupParam: id 100352: equipId: = 6421
