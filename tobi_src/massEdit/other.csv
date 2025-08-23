@@ -42,8 +42,8 @@ param CalcCorrectGraph: id 101: stageMaxGrowVal3: = 700
 param CalcCorrectGraph: id 101: stageMaxGrowVal4: = 900
 
 ## make level ups cost 0 souls
-param CalcCorrectGraph: id 200: init_inclination_soul: = 8
-param CalcCorrectGraph: id 200: adjustment_value: = 8
-param CalcCorrectGraph: id 200: boundry_inclination_soul: = 8
-param CalcCorrectGraph: id 200: boundry_value: = 20
+param CalcCorrectGraph: id 200: init_inclination_soul: = 0
+param CalcCorrectGraph: id 200: adjustment_value: = 0
+param CalcCorrectGraph: id 200: boundry_inclination_soul: = 0
+param CalcCorrectGraph: id 200: boundry_value: = 0
 
