@@ -1,3 +1,6 @@
 ## remove rune costs from weapon upgrades
 param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
+param ReinforceParamWeapon: positive baseChangePriceRate: baseChangePriceRate: = 0
 
+## remove matterial costs for Standardm, Sharp, Heavy, Fire, ...
+param EquipMtrlSetParam: proprange materialId01 1100 1250: itemNum01: = 0
