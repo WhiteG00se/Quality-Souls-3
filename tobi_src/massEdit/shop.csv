@@ -18,5 +18,5 @@ param EquipParamWeapon: positive shopId: shopId: = 0
 ## set all shop soul prices to 0
 param ShopLineupParam: positive value: value: = 0
 
-## Brother Corhyn offers "[Incantation] Heal" again instead of "[Incantation] Rune Shards"
-##param ShopLineupParam: id 100352: equipId: = 6421
+## Shrine Handmaid - infinite embers
+param ShopLineupParam: id 110024: sellQuantity: = -1
