@@ -29,7 +29,32 @@ param ShopLineupParam: id 110019: sellQuantity: = -1
 param ShopLineupParam: id 110019: equipType: = 3
 param ShopLineupParam: id 110019: equipId: = 2400000
 
-## Shrine Handmaid - Prism Stone => Fireball
+## Shrine Handmaid - Prism Stone => Short Bow
 param ShopLineupParam: id 110021: sellQuantity: = -1
 param ShopLineupParam: id 110021: equipType: = 0
-param ShopLineupParam: id 110021: equipId: = 13400000
+param ShopLineupParam: id 110021: equipId: = 14010000
+
+## Shrine Handmaid - White Sign Soapstone => Heal
+param ShopLineupParam: id 110022: sellQuantity: = 1
+param ShopLineupParam: id 110022: equipType: = 3
+param ShopLineupParam: id 110022: equipId: = 3500000
+
+## Shrine Handmaid - Leather Shield => Knight Shield
+param ShopLineupParam: id 110009: sellQuantity: = -1
+param ShopLineupParam: id 110009: equipType: = 0
+param ShopLineupParam: id 110009: equipId: = 21040000
+
+## Shrine Handmaid - Warrior's Round Shield => Mail Breaker
+param ShopLineupParam: id 110008: sellQuantity: = -1
+param ShopLineupParam: id 110008: equipType: = 0
+param ShopLineupParam: id 110008: equipId: = 3010000
+
+## Shrine Handmaid - Large Leather Shield => Sellsword Twinblades
+param ShopLineupParam: id 110007: sellQuantity: = -1
+param ShopLineupParam: id 110007: equipType: = 0
+param ShopLineupParam: id 110007: equipId: = 16000000
+
+## Shrine Handmaid - Dried Finger => Spear
+param ShopLineupParam: id 110023: sellQuantity: = -1
+param ShopLineupParam: id 110023: equipType: = 0
+param ShopLineupParam: id 110023: equipId: = 9000000
