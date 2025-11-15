@@ -24,10 +24,10 @@ param ShopLineupParam: id 110024: sellQuantity: = -1
 ## Shrine Handmaid - Purple Moss Clump
 param ShopLineupParam: id 110017: sellQuantity: = -1
 
-## Shrine Handmaid - Firebomb => Fireball
+## Shrine Handmaid - Firebomb => Light Crossbow
 param ShopLineupParam: id 110019: sellQuantity: = -1
-param ShopLineupParam: id 110019: equipType: = 3
-param ShopLineupParam: id 110019: equipId: = 2400000
+param ShopLineupParam: id 110019: equipType: = 0
+param ShopLineupParam: id 110019: equipId: = 14040000
 
 ## Shrine Handmaid - Prism Stone => Short Bow
 param ShopLineupParam: id 110021: sellQuantity: = -1
