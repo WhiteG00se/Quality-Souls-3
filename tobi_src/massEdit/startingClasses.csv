@@ -9,3 +9,42 @@ param CharaInitParam: idrange 3000 3009: baseDex: = 10
 param CharaInitParam: idrange 3000 3009: baseMag: = 10
 param CharaInitParam: idrange 3000 3009: baseFai: = 10
 param CharaInitParam: idrange 3000 3009: baseLuc: = 10
+
+## R1 Hand Axe
+param CharaInitParam: idrange 3000 3009: equip_Wep_Right: = 7000000
+## R2 Light Crossbow
+param CharaInitParam: idrange 3000 3009: equip_Subwep_Right: = 14040000
+## R3 (works but info in character menu is buggy)
+param CharaInitParam: idrange 3000 3009: equip_Wep_Body_GenId: = -1
+
+## L1 Kite Shield
+param CharaInitParam: idrange 3000 3009: equip_Wep_Left: = 20120000
+## L2 Pyromancy Flame
+param CharaInitParam: idrange 3000 3009: equip_Subwep_Left: = 13400000
+## L3 (works but info in character menu is buggy)
+param CharaInitParam: idrange 3000 3009: SecondaryItem_01: = -1
+
+## arrow slot 1 Wood Arrow
+param CharaInitParam: idrange 3000 3009: equip_Arrow: = 400600
+## arrow slot 2
+param CharaInitParam: idrange 3000 3009: equip_SubArrow: = -1
+## bolt slot 1 Wood Bolt
+param CharaInitParam: idrange 3000 3009: equip_Bolt: = 404300
+## bolt slot 2
+param CharaInitParam: idrange 3000 3009: equip_SubBolt: = -1
+
+## arrow quantity 1
+param CharaInitParam: idrange 3000 3009: arrowNum: = 99
+## arrow quantity 2
+param CharaInitParam: idrange 3000 3009: subArrowNum: = 0
+## bolt quantity 1
+param CharaInitParam: idrange 3000 3009: boltNum: = 99
+## bolt quantity 2
+param CharaInitParam: idrange 3000 3009: subBoltNum: = 0
+
+## ring slot 1
+param CharaInitParam: idrange 3000 3009: equip_Accessory1: = -1
+## spell slot 1 Fireball
+param CharaInitParam: idrange 3000 3009: equip_Spell_01: = 2400000
+## spell slot 1
+param CharaInitParam: idrange 3000 3009: equip_Spell_02: = -1
