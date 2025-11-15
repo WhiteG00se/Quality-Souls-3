@@ -2,7 +2,9 @@
   "ProjectName": "Quality Souls 3",
   "GameRoot": "D:\\Games\\Steam\\steamapps\\common\\DARK SOULS III\\Game",
   "GameType": 5,
-  "PinnedParams": [],
+  "PinnedParams": [
+    "ShopLineupParam"
+  ],
   "PinnedRows": {},
   "PinnedFields": {},
   "UseLooseParams": false,
