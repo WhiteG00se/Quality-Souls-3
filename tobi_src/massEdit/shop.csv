@@ -20,3 +20,8 @@ param ShopLineupParam: positive value: value: = 0
 
 ## Shrine Handmaid - infinite embers
 param ShopLineupParam: id 110024: sellQuantity: = -1
+
+## Shrine Handmaid - Firebomb => Fireball
+param ShopLineupParam: id 110019: sellQuantity: = -1
+param ShopLineupParam: id 110019: equipType: = 3
+param ShopLineupParam: id 110019: equipId: = 2400000
