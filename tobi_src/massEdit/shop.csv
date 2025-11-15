@@ -25,3 +25,8 @@ param ShopLineupParam: id 110024: sellQuantity: = -1
 param ShopLineupParam: id 110019: sellQuantity: = -1
 param ShopLineupParam: id 110019: equipType: = 3
 param ShopLineupParam: id 110019: equipId: = 2400000
+
+## Shrine Handmaid - Prism Stone => Fireball
+param ShopLineupParam: id 110021: sellQuantity: = -1
+param ShopLineupParam: id 110021: equipType: = 0
+param ShopLineupParam: id 110021: equipId: = 13400000
