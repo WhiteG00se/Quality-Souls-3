@@ -1,18 +1,6 @@
 ## increase FOV, default is 48
 param LockCamParam: id 0: camFovY: = 54
 
-## set all starting classes to level 1 / 10 in every stat
-param CharaInitParam: idrange 3000 3009: soulLvl: = 1
-param CharaInitParam: idrange 3000 3009: baseVit: = 10
-param CharaInitParam: idrange 3000 3009: baseWil: = 10
-param CharaInitParam: idrange 3000 3009: baseEnd: = 10
-param CharaInitParam: idrange 3000 3009: baseDurability: = 10
-param CharaInitParam: idrange 3000 3009: baseStr: = 10
-param CharaInitParam: idrange 3000 3009: baseDex: = 10
-param CharaInitParam: idrange 3000 3009: baseMag: = 10
-param CharaInitParam: idrange 3000 3009: baseFai: = 10
-param CharaInitParam: idrange 3000 3009: baseLuc: = 10
-
 ## Lower fall damage, from 20-50% at 5 to 20 meters to 8-20% at 8 to 20 meters
 param CalcCorrectGraph: id 210: stageMaxVal0: = 8
 param CalcCorrectGraph: id 210: stageMaxVal1: = 8
