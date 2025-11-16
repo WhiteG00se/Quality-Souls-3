@@ -58,3 +58,33 @@ param ShopLineupParam: id 110007: equipId: = 16000000
 param ShopLineupParam: id 110023: sellQuantity: = -1
 param ShopLineupParam: id 110023: equipType: = 0
 param ShopLineupParam: id 110023: equipId: = 9000000
+
+## Shrine Handmaid (Greirat's Ashes) - Light Crossbow => Titanite Shard
+param ShopLineupParam: id 113005: sellQuantity: = -1
+param ShopLineupParam: id 113005: equipType: = 3
+param ShopLineupParam: id 113005: equipId: = 1000
+
+## Shrine Handmaid (Dreamchaser Ashes) - Titanite Shard => Large Titanite Shard
+param ShopLineupParam: id 110111: sellQuantity: = -1
+param ShopLineupParam: id 110111: equipType: = 3
+param ShopLineupParam: id 110111: equipId: = 1001
+
+## Shrine Handmaid (Easterner's Ashes) - Large Titanite Shard => Titanite Chunk
+param ShopLineupParam: id 110510: sellQuantity: = -1
+param ShopLineupParam: id 110510: equipType: = 3
+param ShopLineupParam: id 110510: equipId: = 1002
+
+## Shrine Handmaid (Dragon Chaser's Ashes) - Titanite Chunk => Titanite Slab
+param ShopLineupParam: id 110451: sellQuantity: = -1
+param ShopLineupParam: id 110451: equipType: = 3
+param ShopLineupParam: id 110451: equipId: = 1003
+
+## Shrine Handmaid (Titanite Scale) - Easterner's Ashes => Dragon Chaser's Ashes
+param ShopLineupParam: id 110452: sellQuantity: = -1
+param ShopLineupParam: id 110452: equipType: = 3
+param ShopLineupParam: id 110452: eventFlag_forRelease: = 70000109
+
+## Shrine Handmaid (Twinkling Titanite) - Easterner's Ashes => Dragon Chaser's Ashes
+param ShopLineupParam: id 110453: sellQuantity: = -1
+param ShopLineupParam: id 110453: equipType: = 3
+param ShopLineupParam: id 110453: eventFlag_forRelease: = 70000109
