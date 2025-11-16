@@ -1,3 +1,9 @@
-## remove rune costs from weapon upgrades
+## remove rune costs from weapon upgrades & infusions
 param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
 param ReinforceParamWeapon: positive baseChangePriceRate: baseChangePriceRate: = 0
+
+## Free Boss Soul Transposition (maybe -1 instead of 0?)
+param EquipMtrlSetParam: idrange 100000 100026: itemNum01: = -1
+
+## remove material costs from weapon infusions
+param EquipMtrlSetParam: id (0|100|200|300|400|500|600|700|800|900|1000|1100|1200|1300|1400|1500): itemNum01: = -1
