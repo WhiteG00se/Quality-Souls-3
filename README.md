@@ -10,7 +10,7 @@
 
 - either GIT CLONE this repo or download this repo ("code" -> "Download ZIP") and unzip it (to anywhere you like, but not into the game folder)
 
-- move the files from the "proper_pc_experience_mod" folder into the same folder as the game's .exe ("[...]\steamapps\common\DARK SOULS III\Game")
+- move the files from the "proper_pc_experience_mod" folder into the same folder as the game's .exe ("[...]\steamapps\common\DARK SOULS III\Game\d3d11_refreshrate.ini")
 
 - edit the files "d3d11_refreshrate.ini" and "d3d11_fps.ini" to your liking. For refresh rate I recommend your screen's native refresh rate in most cases. For fps I recommend 120 or 60, other numbers will mess with the physics and might cause de-sync between guests and session host.
 
