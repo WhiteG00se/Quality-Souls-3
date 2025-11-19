@@ -59,10 +59,11 @@ param ShopLineupParam: id 110023: sellQuantity: = -1
 param ShopLineupParam: id 110023: equipType: = 0
 param ShopLineupParam: id 110023: equipId: = 9000000
 
-## Shrine Handmaid (Greirat's Ashes) - Light Crossbow => Titanite Shard
+## Shrine Handmaid (Greirat's Ashes => Mortician's Ashes) - Light Crossbow => Titanite Shard
 param ShopLineupParam: id 113005: sellQuantity: = -1
 param ShopLineupParam: id 113005: equipType: = 3
 param ShopLineupParam: id 113005: equipId: = 1000
+param ShopLineupParam: id 113005: eventFlag_forRelease: = 70000100
 
 ## Shrine Handmaid (Dreamchaser Ashes) - Titanite Shard => Large Titanite Shard
 param ShopLineupParam: id 110111: sellQuantity: = -1
