@@ -12,7 +12,7 @@
 
 - move the files from the "proper_pc_experience_mod" folder into the same folder as the game's .exe ("[...]\steamapps\common\DARK SOULS III\Game\d3d11_refreshrate.ini")
 
-- edit the files "d3d11_refreshrate.ini" and "d3d11_fps.ini" to your liking. For refresh rate I recommend your screen's native refresh rate in most cases. For fps I recommend 120 or 60, other numbers will mess with the physics and might cause de-sync between guests and session host.
+- edit the files "d3d11_refreshrate.ini" and "d3d11_fps.ini" to your liking. For refresh rate I recommend your screen's native refresh rate in most cases. For fps I recommend 120 or 60, other numbers will mess with the physics and might cause de-sync between guests and session host. Edit: 120hz resulted in freezing the game for me once every few hours for 5s at a time.
 
 - run z_launchmod_darksouls3.bat
 
